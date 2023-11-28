@@ -39,13 +39,11 @@ public class example
 	public static void main(String[] args) 
 	{
 		rectangle r=new rectangle(3,5);
-		r.area();
 		r.message();
 		System.out.println("the area of circle :"+r.area());
 		
 		square s=new square(3);
-		s.area();
 		s.message();
-		System.out.println("the area of circle :"+s.area());
+		System.out.println("the area of rectangle :"+s.area());
 	}
 }
